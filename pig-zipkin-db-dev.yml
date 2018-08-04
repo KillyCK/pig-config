@@ -12,7 +12,7 @@ spring:
 zipkin:
   collector:
     rabbitmq:
-      addresses: 192.168.99.100:5682
+      addresses: 192.168.99.100:5672
       password: guest
       username: guest
       queue: zipkin
