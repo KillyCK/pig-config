@@ -4,14 +4,14 @@ server:
 zipkin:
   collector:
     rabbitmq:
-      addresses: 127.0.0.1:5682
-      password: lengleng
-      username: pig
+      addresses: 192.168.99.100:5682
+      password: guest
+      username: guest
       queue: zipkin
   storage:
     type: elasticsearch
     elasticsearch:
-      hosts: 127.0.0.1:9200
+      hosts: 192.168.99.100:9200
       cluster: elasticsearch
       index: zipkin
       max-requests: 64
